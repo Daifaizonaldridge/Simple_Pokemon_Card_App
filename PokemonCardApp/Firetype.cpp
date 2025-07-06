@@ -9,6 +9,8 @@ class fireType
 
 public:	
 	string Pokename = "N/A";
+	int health = 100;
+
 	//health function
 	int Health() {
 		return health;
@@ -43,7 +45,7 @@ public:
 private:
 	// number of fire-type Pokémon damage dealt
 	int damageDealt = 2;
-	int health = 100; // health of fire-type Pokémon
+	
 	
 	
 
