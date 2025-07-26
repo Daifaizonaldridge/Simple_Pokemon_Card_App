@@ -1,9 +1,8 @@
 #include <iostream>
 #include <list>
-
 #include "FireType.cpp";
 #include <string>
-
+using namespace std;
 
 
 int main()
@@ -78,11 +77,11 @@ int main()
 	
 	}
 	
-	pokemonList.push_back(pokemon1); // Add Pokemon 3 to the list
-	pokemonList.push_back(pokemon2); // Add Pokemon 3 to the list
-	pokemonList.push_back(pokemon3); // Add Pokemon 3 to the list
+	//pokemonList.push_back(pokemon1); // Add Pokemon 3 to the list
+	//pokemonList.push_back(pokemon2); // Add Pokemon 3 to the list
+	//pokemonList.push_back(pokemon3); // Add Pokemon 3 to the list
 
-	pokemonList.sort(); // Sort the list of Pokemon by their names
+	//pokemonList.sort(); // Sort the list of Pokemon by their names
 
 }
 
