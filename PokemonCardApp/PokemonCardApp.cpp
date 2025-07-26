@@ -1,5 +1,6 @@
 #include <iostream>
-using namespace std;
+#include <list>
+
 #include "FireType.cpp";
 #include <string>
 
@@ -9,6 +10,12 @@ int main()
 {
 	fireType pokemon1; // Create an instance of the firetype class
 	fireType pokemon2; // Create another instance of the firetype class
+	fireType pokemon3; // Create a third instance of the firetype class
+
+    
+	list<fireType> pokemonList; // Create a list to hold firetype Pokemon
+
+
 	string namechoice;
 	string namechoice2;
 	 // Create an instance of the firetype class
@@ -71,7 +78,14 @@ int main()
 	
 	}
 	
+	pokemonList.push_back(pokemon1); // Add Pokemon 3 to the list
+	pokemonList.push_back(pokemon2); // Add Pokemon 3 to the list
+	pokemonList.push_back(pokemon3); // Add Pokemon 3 to the list
 
-
+	pokemonList.sort(); // Sort the list of Pokemon by their names
 
 }
+
+
+
+
